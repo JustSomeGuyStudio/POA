@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"I:/UE_Projects/GitLabRepo/POA/Content/Characters/Heroes/Mannequin/Animations/ABP_Mannequin_Base.uasset",
+				"I:/UE_Projects/GitLabRepo/POA/Content/Characters/Heroes/Mannequin/Animations/LinkedLayers/ABP_ItemAnimLayersBase.uasset",
+				"I:/UE_Projects/GitLabRepo/POA/Plugins/GMCCrouchProneDemo/Content/TPCharacter/BP_TPCrouchProneCharacter.uasset",
 				"E:/Unreal Projects/Lyra_GMC/Content/GMCv2_Demo/Blueprints/BP_GameMode.uasset",
 				"E:/Unreal Projects/Lyra_GMC/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"E:/Unreal Projects/Lyra_GMC/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset",

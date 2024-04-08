@@ -72,7 +72,7 @@ inline FString GetMovementModeAsString(uint8 MovementMode)
       return TEXT("");
   }
   gmc_ckne()
-  return "";
+//  return "";
 }
 
 UENUM(BlueprintType)
