@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.4",
 	"Category": "GRIMTEC",
 	"Description": "Template project for GMCv2.",
+	"Modules": [
+		{
+			"Name": "Lyra_GMC",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "GMC",

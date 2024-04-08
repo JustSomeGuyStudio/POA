@@ -14,21 +14,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GMCCORE_NetTypes_generated_h
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_NetTypes_h_11_GENERATED_BODY \
+#define FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_NetTypes_h_11_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGMC_ClientInfo_Statics; \
 	GMCCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_ClientInfo>();
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_NetTypes_h_19_GENERATED_BODY \
+#define FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_NetTypes_h_19_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGMC_NetInfo_Statics; \
 	GMCCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_NetInfo>();
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_NetTypes_h_31_GENERATED_BODY \
+#define FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_NetTypes_h_31_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGMC_MetaData_Statics; \
 	GMCCORE_API static class UScriptStruct* StaticStruct();
 
@@ -36,7 +36,7 @@ template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_NetInfo>();
 template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_MetaData>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_NetTypes_h
+#define CURRENT_FILE_ID FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_NetTypes_h
 
 
 #define FOREACH_ENUM_EGMC_NETCONTEXT(op) \

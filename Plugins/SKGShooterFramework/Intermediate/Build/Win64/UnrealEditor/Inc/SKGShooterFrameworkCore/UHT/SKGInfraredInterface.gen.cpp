@@ -5,84 +5,86 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "SKGShooterFrameworkCore/Public/Interfaces/SKGInfraredInterface.h"
+#include "../../../UE_Projects/GitLabRepo/POA/Plugins/SKGShooterFramework/Source/SKGShooterFrameworkCore/Public/Interfaces/SKGInfraredInterface.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSKGInfraredInterface() {}
-// Cross Module References
-	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
-	SKGSHOOTERFRAMEWORKCORE_API UClass* Z_Construct_UClass_USKGInfraredInterface();
-	SKGSHOOTERFRAMEWORKCORE_API UClass* Z_Construct_UClass_USKGInfraredInterface_NoRegister();
-	UPackage* Z_Construct_UPackage__Script_SKGShooterFrameworkCore();
+
+// Begin Cross Module References
+COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
+SKGSHOOTERFRAMEWORKCORE_API UClass* Z_Construct_UClass_USKGInfraredInterface();
+SKGSHOOTERFRAMEWORKCORE_API UClass* Z_Construct_UClass_USKGInfraredInterface_NoRegister();
+UPackage* Z_Construct_UPackage__Script_SKGShooterFrameworkCore();
 // End Cross Module References
-	void USKGInfraredInterface::StaticRegisterNativesUSKGInfraredInterface()
-	{
-	}
-	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(USKGInfraredInterface);
-	UClass* Z_Construct_UClass_USKGInfraredInterface_NoRegister()
-	{
-		return USKGInfraredInterface::StaticClass();
-	}
-	struct Z_Construct_UClass_USKGInfraredInterface_Statics
-	{
-		static UObject* (*const DependentSingletons[])();
+
+// Begin Interface USKGInfraredInterface
+void USKGInfraredInterface::StaticRegisterNativesUSKGInfraredInterface()
+{
+}
+IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(USKGInfraredInterface);
+UClass* Z_Construct_UClass_USKGInfraredInterface_NoRegister()
+{
+	return USKGInfraredInterface::StaticClass();
+}
+struct Z_Construct_UClass_USKGInfraredInterface_Statics
+{
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
-#endif
-		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
-		static const UECodeGen_Private::FClassParams ClassParams;
-	};
-	UObject* (*const Z_Construct_UClass_USKGInfraredInterface_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UInterface,
-		(UObject* (*)())Z_Construct_UPackage__Script_SKGShooterFrameworkCore,
-	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USKGInfraredInterface_Statics::DependentSingletons) < 16);
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USKGInfraredInterface_Statics::Class_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Interfaces/SKGInfraredInterface.h" },
 	};
-#endif
-	const FCppClassTypeInfoStatic Z_Construct_UClass_USKGInfraredInterface_Statics::StaticCppClassTypeInfo = {
+#endif // WITH_METADATA
+	static UObject* (*const DependentSingletons[])();
+	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ISKGInfraredInterface>::IsAbstract,
 	};
-	const UECodeGen_Private::FClassParams Z_Construct_UClass_USKGInfraredInterface_Statics::ClassParams = {
-		&USKGInfraredInterface::StaticClass,
-		nullptr,
-		&StaticCppClassTypeInfo,
-		DependentSingletons,
-		nullptr,
-		nullptr,
-		nullptr,
-		UE_ARRAY_COUNT(DependentSingletons),
-		0,
-		0,
-		0,
-		0x001040A1u,
-		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USKGInfraredInterface_Statics::Class_MetaDataParams), Z_Construct_UClass_USKGInfraredInterface_Statics::Class_MetaDataParams)
-	};
-	UClass* Z_Construct_UClass_USKGInfraredInterface()
+	static const UECodeGen_Private::FClassParams ClassParams;
+};
+UObject* (*const Z_Construct_UClass_USKGInfraredInterface_Statics::DependentSingletons[])() = {
+	(UObject* (*)())Z_Construct_UClass_UInterface,
+	(UObject* (*)())Z_Construct_UPackage__Script_SKGShooterFrameworkCore,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USKGInfraredInterface_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams Z_Construct_UClass_USKGInfraredInterface_Statics::ClassParams = {
+	&USKGInfraredInterface::StaticClass,
+	nullptr,
+	&StaticCppClassTypeInfo,
+	DependentSingletons,
+	nullptr,
+	nullptr,
+	nullptr,
+	UE_ARRAY_COUNT(DependentSingletons),
+	0,
+	0,
+	0,
+	0x001040A1u,
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USKGInfraredInterface_Statics::Class_MetaDataParams), Z_Construct_UClass_USKGInfraredInterface_Statics::Class_MetaDataParams)
+};
+UClass* Z_Construct_UClass_USKGInfraredInterface()
+{
+	if (!Z_Registration_Info_UClass_USKGInfraredInterface.OuterSingleton)
 	{
-		if (!Z_Registration_Info_UClass_USKGInfraredInterface.OuterSingleton)
-		{
-			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_USKGInfraredInterface.OuterSingleton, Z_Construct_UClass_USKGInfraredInterface_Statics::ClassParams);
-		}
-		return Z_Registration_Info_UClass_USKGInfraredInterface.OuterSingleton;
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_USKGInfraredInterface.OuterSingleton, Z_Construct_UClass_USKGInfraredInterface_Statics::ClassParams);
 	}
-	template<> SKGSHOOTERFRAMEWORKCORE_API UClass* StaticClass<USKGInfraredInterface>()
-	{
-		return USKGInfraredInterface::StaticClass();
-	}
-	USKGInfraredInterface::USKGInfraredInterface(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
-	DEFINE_VTABLE_PTR_HELPER_CTOR(USKGInfraredInterface);
-	USKGInfraredInterface::~USKGInfraredInterface() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_Statics
-	{
-		static const FClassRegisterCompiledInInfo ClassInfo[];
+	return Z_Registration_Info_UClass_USKGInfraredInterface.OuterSingleton;
+}
+template<> SKGSHOOTERFRAMEWORKCORE_API UClass* StaticClass<USKGInfraredInterface>()
+{
+	return USKGInfraredInterface::StaticClass();
+}
+USKGInfraredInterface::USKGInfraredInterface(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
+DEFINE_VTABLE_PTR_HELPER_CTOR(USKGInfraredInterface);
+USKGInfraredInterface::~USKGInfraredInterface() {}
+// End Interface USKGInfraredInterface
+
+// Begin Registration
+struct Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_Statics
+{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_USKGInfraredInterface, USKGInfraredInterface::StaticClass, TEXT("USKGInfraredInterface"), &Z_Registration_Info_UClass_USKGInfraredInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USKGInfraredInterface), 3554513880U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_USKGInfraredInterface, USKGInfraredInterface::StaticClass, TEXT("USKGInfraredInterface"), &Z_Registration_Info_UClass_USKGInfraredInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USKGInfraredInterface), 2504433039U) },
-	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_699033631(TEXT("/Script/SKGShooterFrameworkCore"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_Statics::ClassInfo),
-		nullptr, 0,
-		nullptr, 0);
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_3353984861(TEXT("/Script/SKGShooterFrameworkCore"),
+	Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_Statics::ClassInfo),
+	nullptr, 0,
+	nullptr, 0);
+// End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

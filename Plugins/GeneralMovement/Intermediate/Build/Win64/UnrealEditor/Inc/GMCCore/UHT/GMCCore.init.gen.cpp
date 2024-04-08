@@ -21,13 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeGMCCore_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x241B532E,
-				0x333E39D9,
+				0x6CDC860F,
+				0x7C7F4098,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_GMCCore.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_GMCCore.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GMCCore(Z_Construct_UPackage__Script_GMCCore, TEXT("/Script/GMCCore"), Z_Registration_Info_UPackage__Script_GMCCore, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x241B532E, 0x333E39D9));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GMCCore(Z_Construct_UPackage__Script_GMCCore, TEXT("/Script/GMCCore"), Z_Registration_Info_UPackage__Script_GMCCore, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6CDC860F, 0x7C7F4098));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

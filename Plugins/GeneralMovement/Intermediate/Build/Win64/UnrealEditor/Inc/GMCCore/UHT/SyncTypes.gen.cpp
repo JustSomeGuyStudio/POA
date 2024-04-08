@@ -5,65 +5,33 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Replication/SyncTypes.h"
+#include "../../../UE_Projects/GitLabRepo/POA/Plugins/GeneralMovement/Source/GMCCore/Public/Replication/SyncTypes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSyncTypes() {}
-// Cross Module References
-	GMCCORE_API UEnum* Z_Construct_UEnum_GMCCore_EGMC_SyncType();
-	UPackage* Z_Construct_UPackage__Script_GMCCore();
+
+// Begin Cross Module References
+GMCCORE_API UEnum* Z_Construct_UEnum_GMCCore_EGMC_SyncType();
+UPackage* Z_Construct_UPackage__Script_GMCCore();
 // End Cross Module References
-	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EGMC_SyncType;
-	static UEnum* EGMC_SyncType_StaticEnum()
+
+// Begin Enum EGMC_SyncType
+static FEnumRegistrationInfo Z_Registration_Info_UEnum_EGMC_SyncType;
+static UEnum* EGMC_SyncType_StaticEnum()
+{
+	if (!Z_Registration_Info_UEnum_EGMC_SyncType.OuterSingleton)
 	{
-		if (!Z_Registration_Info_UEnum_EGMC_SyncType.OuterSingleton)
-		{
-			Z_Registration_Info_UEnum_EGMC_SyncType.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_GMCCore_EGMC_SyncType, (UObject*)Z_Construct_UPackage__Script_GMCCore(), TEXT("EGMC_SyncType"));
-		}
-		return Z_Registration_Info_UEnum_EGMC_SyncType.OuterSingleton;
+		Z_Registration_Info_UEnum_EGMC_SyncType.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_GMCCore_EGMC_SyncType, (UObject*)Z_Construct_UPackage__Script_GMCCore(), TEXT("EGMC_SyncType"));
 	}
-	template<> GMCCORE_API UEnum* StaticEnum<EGMC_SyncType>()
-	{
-		return EGMC_SyncType_StaticEnum();
-	}
-	struct Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics
-	{
-		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
+	return Z_Registration_Info_UEnum_EGMC_SyncType.OuterSingleton;
+}
+template<> GMCCORE_API UEnum* StaticEnum<EGMC_SyncType>()
+{
+	return EGMC_SyncType_StaticEnum();
+}
+struct Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics
+{
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FEnumParams EnumParams;
-	};
-	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enumerators[] = {
-		{ "EGMC_SyncType::ActorBase", (int64)EGMC_SyncType::ActorBase },
-		{ "EGMC_SyncType::LinearVelocity", (int64)EGMC_SyncType::LinearVelocity },
-		{ "EGMC_SyncType::AngularVelocity", (int64)EGMC_SyncType::AngularVelocity },
-		{ "EGMC_SyncType::ActorLocation", (int64)EGMC_SyncType::ActorLocation },
-		{ "EGMC_SyncType::ActorRotation", (int64)EGMC_SyncType::ActorRotation },
-		{ "EGMC_SyncType::ActorScale", (int64)EGMC_SyncType::ActorScale },
-		{ "EGMC_SyncType::ControlRotation", (int64)EGMC_SyncType::ControlRotation },
-		{ "EGMC_SyncType::Bool", (int64)EGMC_SyncType::Bool },
-		{ "EGMC_SyncType::HalfByte", (int64)EGMC_SyncType::HalfByte },
-		{ "EGMC_SyncType::Byte", (int64)EGMC_SyncType::Byte },
-		{ "EGMC_SyncType::Int", (int64)EGMC_SyncType::Int },
-		{ "EGMC_SyncType::SinglePrecisionFloat", (int64)EGMC_SyncType::SinglePrecisionFloat },
-		{ "EGMC_SyncType::CompressedSinglePrecisionFloat", (int64)EGMC_SyncType::CompressedSinglePrecisionFloat },
-		{ "EGMC_SyncType::DoublePrecisionFloat", (int64)EGMC_SyncType::DoublePrecisionFloat },
-		{ "EGMC_SyncType::CompressedDoublePrecisionFloat", (int64)EGMC_SyncType::CompressedDoublePrecisionFloat },
-		{ "EGMC_SyncType::TruncatedDoublePrecisionFloat", (int64)EGMC_SyncType::TruncatedDoublePrecisionFloat },
-		{ "EGMC_SyncType::CompressedVector2D", (int64)EGMC_SyncType::CompressedVector2D },
-		{ "EGMC_SyncType::CompressedVector", (int64)EGMC_SyncType::CompressedVector },
-		{ "EGMC_SyncType::CompressedRotator", (int64)EGMC_SyncType::CompressedRotator },
-		{ "EGMC_SyncType::ActorReference", (int64)EGMC_SyncType::ActorReference },
-		{ "EGMC_SyncType::ActorComponentReference", (int64)EGMC_SyncType::ActorComponentReference },
-		{ "EGMC_SyncType::AnimMontageReference", (int64)EGMC_SyncType::AnimMontageReference },
-		{ "EGMC_SyncType::Name", (int64)EGMC_SyncType::Name },
-		{ "EGMC_SyncType::GameplayTag", (int64)EGMC_SyncType::GameplayTag },
-		{ "EGMC_SyncType::GameplayTagContainer", (int64)EGMC_SyncType::GameplayTagContainer },
-		{ "EGMC_SyncType::InstancedStruct", (int64)EGMC_SyncType::InstancedStruct },
-		{ "EGMC_SyncType::MAX", (int64)EGMC_SyncType::MAX },
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enum_MetaDataParams[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 		{ "ActorBase.Name", "EGMC_SyncType::ActorBase" },
 		{ "ActorComponentReference.Name", "EGMC_SyncType::ActorComponentReference" },
 		{ "ActorLocation.Name", "EGMC_SyncType::ActorLocation" },
@@ -95,36 +63,70 @@ void EmptyLinkFunctionForGeneratedCodeSyncTypes() {}
 		{ "SinglePrecisionFloat.Name", "EGMC_SyncType::SinglePrecisionFloat" },
 		{ "TruncatedDoublePrecisionFloat.Name", "EGMC_SyncType::TruncatedDoublePrecisionFloat" },
 	};
-#endif
-	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::EnumParams = {
-		(UObject*(*)())Z_Construct_UPackage__Script_GMCCore,
-		nullptr,
-		"EGMC_SyncType",
-		"EGMC_SyncType",
-		Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enumerators,
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enumerators),
-		EEnumFlags::None,
-		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enum_MetaDataParams)
+#endif // WITH_METADATA
+	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
+		{ "EGMC_SyncType::ActorBase", (int64)EGMC_SyncType::ActorBase },
+		{ "EGMC_SyncType::LinearVelocity", (int64)EGMC_SyncType::LinearVelocity },
+		{ "EGMC_SyncType::AngularVelocity", (int64)EGMC_SyncType::AngularVelocity },
+		{ "EGMC_SyncType::ActorLocation", (int64)EGMC_SyncType::ActorLocation },
+		{ "EGMC_SyncType::ActorRotation", (int64)EGMC_SyncType::ActorRotation },
+		{ "EGMC_SyncType::ActorScale", (int64)EGMC_SyncType::ActorScale },
+		{ "EGMC_SyncType::ControlRotation", (int64)EGMC_SyncType::ControlRotation },
+		{ "EGMC_SyncType::Bool", (int64)EGMC_SyncType::Bool },
+		{ "EGMC_SyncType::HalfByte", (int64)EGMC_SyncType::HalfByte },
+		{ "EGMC_SyncType::Byte", (int64)EGMC_SyncType::Byte },
+		{ "EGMC_SyncType::Int", (int64)EGMC_SyncType::Int },
+		{ "EGMC_SyncType::SinglePrecisionFloat", (int64)EGMC_SyncType::SinglePrecisionFloat },
+		{ "EGMC_SyncType::CompressedSinglePrecisionFloat", (int64)EGMC_SyncType::CompressedSinglePrecisionFloat },
+		{ "EGMC_SyncType::DoublePrecisionFloat", (int64)EGMC_SyncType::DoublePrecisionFloat },
+		{ "EGMC_SyncType::CompressedDoublePrecisionFloat", (int64)EGMC_SyncType::CompressedDoublePrecisionFloat },
+		{ "EGMC_SyncType::TruncatedDoublePrecisionFloat", (int64)EGMC_SyncType::TruncatedDoublePrecisionFloat },
+		{ "EGMC_SyncType::CompressedVector2D", (int64)EGMC_SyncType::CompressedVector2D },
+		{ "EGMC_SyncType::CompressedVector", (int64)EGMC_SyncType::CompressedVector },
+		{ "EGMC_SyncType::CompressedRotator", (int64)EGMC_SyncType::CompressedRotator },
+		{ "EGMC_SyncType::ActorReference", (int64)EGMC_SyncType::ActorReference },
+		{ "EGMC_SyncType::ActorComponentReference", (int64)EGMC_SyncType::ActorComponentReference },
+		{ "EGMC_SyncType::AnimMontageReference", (int64)EGMC_SyncType::AnimMontageReference },
+		{ "EGMC_SyncType::Name", (int64)EGMC_SyncType::Name },
+		{ "EGMC_SyncType::GameplayTag", (int64)EGMC_SyncType::GameplayTag },
+		{ "EGMC_SyncType::GameplayTagContainer", (int64)EGMC_SyncType::GameplayTagContainer },
+		{ "EGMC_SyncType::InstancedStruct", (int64)EGMC_SyncType::InstancedStruct },
+		{ "EGMC_SyncType::MAX", (int64)EGMC_SyncType::MAX },
 	};
-	UEnum* Z_Construct_UEnum_GMCCore_EGMC_SyncType()
+	static const UECodeGen_Private::FEnumParams EnumParams;
+};
+const UECodeGen_Private::FEnumParams Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::EnumParams = {
+	(UObject*(*)())Z_Construct_UPackage__Script_GMCCore,
+	nullptr,
+	"EGMC_SyncType",
+	"EGMC_SyncType",
+	Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enumerators,
+	RF_Public|RF_Transient|RF_MarkAsNative,
+	UE_ARRAY_COUNT(Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enumerators),
+	EEnumFlags::None,
+	(uint8)UEnum::ECppForm::EnumClass,
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::Enum_MetaDataParams)
+};
+UEnum* Z_Construct_UEnum_GMCCore_EGMC_SyncType()
+{
+	if (!Z_Registration_Info_UEnum_EGMC_SyncType.InnerSingleton)
 	{
-		if (!Z_Registration_Info_UEnum_EGMC_SyncType.InnerSingleton)
-		{
-			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EGMC_SyncType.InnerSingleton, Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::EnumParams);
-		}
-		return Z_Registration_Info_UEnum_EGMC_SyncType.InnerSingleton;
+		UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EGMC_SyncType.InnerSingleton, Z_Construct_UEnum_GMCCore_EGMC_SyncType_Statics::EnumParams);
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_SyncTypes_h_Statics
-	{
-		static const FEnumRegisterCompiledInInfo EnumInfo[];
+	return Z_Registration_Info_UEnum_EGMC_SyncType.InnerSingleton;
+}
+// End Enum EGMC_SyncType
+
+// Begin Registration
+struct Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_SyncTypes_h_Statics
+{
+	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
+		{ EGMC_SyncType_StaticEnum, TEXT("EGMC_SyncType"), &Z_Registration_Info_UEnum_EGMC_SyncType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2394879416U) },
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_SyncTypes_h_Statics::EnumInfo[] = {
-		{ EGMC_SyncType_StaticEnum, TEXT("EGMC_SyncType"), &Z_Registration_Info_UEnum_EGMC_SyncType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2691889104U) },
-	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_SyncTypes_h_354707453(TEXT("/Script/GMCCore"),
-		nullptr, 0,
-		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_SyncTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_SyncTypes_h_Statics::EnumInfo));
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_SyncTypes_h_2452759947(TEXT("/Script/GMCCore"),
+	nullptr, 0,
+	nullptr, 0,
+	Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_SyncTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_SyncTypes_h_Statics::EnumInfo));
+// End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeGMCSteam_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA5629029,
-				0x1A288F5D,
+				0x260ECD88,
+				0x943E3A0D,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_GMCSteam.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_GMCSteam.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GMCSteam(Z_Construct_UPackage__Script_GMCSteam, TEXT("/Script/GMCSteam"), Z_Registration_Info_UPackage__Script_GMCSteam, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xA5629029, 0x1A288F5D));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GMCSteam(Z_Construct_UPackage__Script_GMCSteam, TEXT("/Script/GMCSteam"), Z_Registration_Info_UPackage__Script_GMCSteam, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x260ECD88, 0x943E3A0D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

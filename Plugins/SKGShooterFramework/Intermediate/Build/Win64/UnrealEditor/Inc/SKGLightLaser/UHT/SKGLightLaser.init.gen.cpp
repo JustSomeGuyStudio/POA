@@ -29,13 +29,13 @@ void EmptyLinkFunctionForGeneratedCodeSKGLightLaser_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x91C721FB,
-				0x8AD5F0B4,
+				0x7CC81D8E,
+				0x7BA0DFC7,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_SKGLightLaser.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_SKGLightLaser.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SKGLightLaser(Z_Construct_UPackage__Script_SKGLightLaser, TEXT("/Script/SKGLightLaser"), Z_Registration_Info_UPackage__Script_SKGLightLaser, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x91C721FB, 0x8AD5F0B4));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SKGLightLaser(Z_Construct_UPackage__Script_SKGLightLaser, TEXT("/Script/SKGLightLaser"), Z_Registration_Info_UPackage__Script_SKGLightLaser, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x7CC81D8E, 0x7BA0DFC7));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

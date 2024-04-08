@@ -14,21 +14,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GMCCORE_Physics_generated_h
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_Physics_h_72_GENERATED_BODY \
+#define FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_Physics_h_72_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGMC_PhysicsInterpState_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_PhysicsInterpState>();
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_Physics_h_109_GENERATED_BODY \
+#define FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_Physics_h_109_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGMC_ServerAuthPhysicsSettings_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_ServerAuthPhysicsSettings>();
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_Physics_h_147_GENERATED_BODY \
+#define FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_Physics_h_147_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGMC_ClientAuthPhysicsSettings_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -36,7 +36,7 @@ template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_ServerAuthPhysics
 template<> GMCCORE_API UScriptStruct* StaticStruct<struct FGMC_ClientAuthPhysicsSettings>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GMC_Source_GMCCore_Public_Replication_Physics_h
+#define CURRENT_FILE_ID FID_UE_Projects_GitLabRepo_POA_Plugins_GeneralMovement_Source_GMCCore_Public_Replication_Physics_h
 
 
 #define FOREACH_ENUM_EGMC_PHYSICSINTERPOLATIONMODE(op) \
