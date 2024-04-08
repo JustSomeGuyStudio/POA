@@ -1,0 +1,71 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Statics/SKGAnimationBudgetAllocatorFunctionsLibrary.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USkeletalMeshComponentBudgeted;
+#ifdef SKGOPTIONAL_SKGAnimationBudgetAllocatorFunctionsLibrary_generated_h
+#error "SKGAnimationBudgetAllocatorFunctionsLibrary.generated.h already included, missing '#pragma once' in SKGAnimationBudgetAllocatorFunctionsLibrary.h"
+#endif
+#define SKGOPTIONAL_SKGAnimationBudgetAllocatorFunctionsLibrary_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRegisterSkeletalMeshComponentBudgeted);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSKGAnimationBudgetAllocatorFunctionsLibrary(); \
+	friend struct Z_Construct_UClass_USKGAnimationBudgetAllocatorFunctionsLibrary_Statics; \
+public: \
+	DECLARE_CLASS(USKGAnimationBudgetAllocatorFunctionsLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SKGOptional"), NO_API) \
+	DECLARE_SERIALIZER(USKGAnimationBudgetAllocatorFunctionsLibrary)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USKGAnimationBudgetAllocatorFunctionsLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGAnimationBudgetAllocatorFunctionsLibrary(USKGAnimationBudgetAllocatorFunctionsLibrary&&); \
+	NO_API USKGAnimationBudgetAllocatorFunctionsLibrary(const USKGAnimationBudgetAllocatorFunctionsLibrary&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGAnimationBudgetAllocatorFunctionsLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGAnimationBudgetAllocatorFunctionsLibrary); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USKGAnimationBudgetAllocatorFunctionsLibrary) \
+	NO_API virtual ~USKGAnimationBudgetAllocatorFunctionsLibrary();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_11_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGOPTIONAL_API UClass* StaticClass<class USKGAnimationBudgetAllocatorFunctionsLibrary>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptional_Public_Statics_SKGAnimationBudgetAllocatorFunctionsLibrary_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

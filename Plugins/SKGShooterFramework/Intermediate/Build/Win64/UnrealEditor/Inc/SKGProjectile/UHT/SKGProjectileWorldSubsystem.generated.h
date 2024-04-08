@@ -1,0 +1,95 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Subsystems/SKGProjectileWorldSubsystem.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class AWindDirectionalSource;
+class UPrimitiveComponent;
+class USKGPDAProjectile;
+struct FHitResult;
+#ifdef SKGPROJECTILE_SKGProjectileWorldSubsystem_generated_h
+#error "SKGProjectileWorldSubsystem.generated.h already included, missing '#pragma once' in SKGProjectileWorldSubsystem.h"
+#endif
+#define SKGPROJECTILE_SKGProjectileWorldSubsystem_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_20_DELEGATE \
+SKGPROJECTILE_API void FSKGOnProjectileImpact_DelegateWrapper(const FScriptDelegate& SKGOnProjectileImpact, FHitResult const& HitResult, FVector const& Direction, const int32 ProjectileID);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_21_DELEGATE \
+SKGPROJECTILE_API void FSKGOnProjetilePositionUpdate_DelegateWrapper(const FScriptDelegate& SKGOnProjetilePositionUpdate, FVector const& Location, FVector const& Velocity, const int32 ProjectileID);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_26_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSKGProjectileData_Statics; \
+	SKGPROJECTILE_API static class UScriptStruct* StaticStruct();
+
+
+template<> SKGPROJECTILE_API UScriptStruct* StaticStruct<struct FSKGProjectileData>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetProjectileLocationAtDistance); \
+	DECLARE_FUNCTION(execGetProjectileZeroAtLocation); \
+	DECLARE_FUNCTION(execGetProjectileZero); \
+	DECLARE_FUNCTION(execFireProjectiles); \
+	DECLARE_FUNCTION(execFireProjectile); \
+	DECLARE_FUNCTION(execSetWindSources);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSKGProjectileWorldSubsystem(); \
+	friend struct Z_Construct_UClass_USKGProjectileWorldSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(USKGProjectileWorldSubsystem, UTickableWorldSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SKGProjectile"), NO_API) \
+	DECLARE_SERIALIZER(USKGProjectileWorldSubsystem)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USKGProjectileWorldSubsystem(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGProjectileWorldSubsystem(USKGProjectileWorldSubsystem&&); \
+	NO_API USKGProjectileWorldSubsystem(const USKGProjectileWorldSubsystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGProjectileWorldSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGProjectileWorldSubsystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USKGProjectileWorldSubsystem) \
+	NO_API virtual ~USKGProjectileWorldSubsystem();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_71_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h_74_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGPROJECTILE_API UClass* StaticClass<class USKGProjectileWorldSubsystem>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGProjectile_Public_Subsystems_SKGProjectileWorldSubsystem_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

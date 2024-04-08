@@ -1,0 +1,83 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Statics/SKGShooterFrameworkHelpers.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class USKGFirearmAttachmentStatComponent;
+class USKGFirearmComponent;
+class USKGLightLaserComponent;
+class USKGOpticComponent;
+class USKGProceduralAnimComponent;
+class USKGShooterPawnComponent;
+#ifdef SKGSHOOTERFRAMEWORK_SKGShooterFrameworkHelpers_generated_h
+#error "SKGShooterFrameworkHelpers.generated.h already included, missing '#pragma once' in SKGShooterFrameworkHelpers.h"
+#endif
+#define SKGSHOOTERFRAMEWORK_SKGShooterFrameworkHelpers_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetParentFirearmComponent); \
+	DECLARE_FUNCTION(execGetLightLaserComponent); \
+	DECLARE_FUNCTION(execGetFirearmAttachmentStatComponent); \
+	DECLARE_FUNCTION(execGetOpticComponent); \
+	DECLARE_FUNCTION(execGetFirearmComponent); \
+	DECLARE_FUNCTION(execGetProceduralAnimComponent); \
+	DECLARE_FUNCTION(execGetShooterPawnComponent);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSKGShooterFrameworkHelpers(); \
+	friend struct Z_Construct_UClass_USKGShooterFrameworkHelpers_Statics; \
+public: \
+	DECLARE_CLASS(USKGShooterFrameworkHelpers, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SKGShooterFramework"), NO_API) \
+	DECLARE_SERIALIZER(USKGShooterFrameworkHelpers)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USKGShooterFrameworkHelpers(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGShooterFrameworkHelpers(USKGShooterFrameworkHelpers&&); \
+	NO_API USKGShooterFrameworkHelpers(const USKGShooterFrameworkHelpers&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGShooterFrameworkHelpers); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGShooterFrameworkHelpers); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USKGShooterFrameworkHelpers) \
+	NO_API virtual ~USKGShooterFrameworkHelpers();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_12_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGSHOOTERFRAMEWORK_API UClass* StaticClass<class USKGShooterFrameworkHelpers>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Statics_SKGShooterFrameworkHelpers_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

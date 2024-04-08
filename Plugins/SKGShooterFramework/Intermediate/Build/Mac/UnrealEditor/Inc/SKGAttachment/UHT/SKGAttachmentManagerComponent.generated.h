@@ -1,0 +1,122 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/SKGAttachmentManagerComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UObject;
+class USKGAttachmentComponent;
+struct FSKGAttachmentComponentItem;
+#ifdef SKGATTACHMENT_SKGAttachmentManagerComponent_generated_h
+#error "SKGAttachmentManagerComponent.generated.h already included, missing '#pragma once' in SKGAttachmentManagerComponent.h"
+#endif
+#define SKGATTACHMENT_SKGAttachmentManagerComponent_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_13_DELEGATE \
+SKGATTACHMENT_API void FOnAttachmentComponentsChanged_DelegateWrapper(const FMulticastScriptDelegate& OnAttachmentComponentsChanged);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_14_DELEGATE \
+SKGATTACHMENT_API void FOnAttachmentComponentAdded_DelegateWrapper(const FMulticastScriptDelegate& OnAttachmentComponentAdded, USKGAttachmentComponent* AttachmentComponent);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_15_DELEGATE \
+SKGATTACHMENT_API void FOnAttachmentComponentRemoved_DelegateWrapper(const FMulticastScriptDelegate& OnAttachmentComponentRemoved, USKGAttachmentComponent* AttachmentComponent);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_16_DELEGATE \
+SKGATTACHMENT_API void FOnAttachmentComponentAttachmentAdded_DelegateWrapper(const FMulticastScriptDelegate& OnAttachmentComponentAttachmentAdded, AActor* Attachment);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_17_DELEGATE \
+SKGATTACHMENT_API void FOnAttachmentComponentAttachmentRemoved_DelegateWrapper(const FMulticastScriptDelegate& OnAttachmentComponentAttachmentRemoved, AActor* Attachment);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool Server_SetAllAttachmentsCollision_Validate(bool ); \
+	virtual void Server_SetAllAttachmentsCollision_Implementation(bool EnableCollision); \
+	virtual bool Server_HideAllAttachments_Validate(bool ); \
+	virtual void Server_HideAllAttachments_Implementation(bool Hide); \
+ \
+	DECLARE_FUNCTION(execGetManagerName); \
+	DECLARE_FUNCTION(execEnableCollisionAllAttachments); \
+	DECLARE_FUNCTION(execDisableCollisionAllAttachments); \
+	DECLARE_FUNCTION(execUnHideAllAttachments); \
+	DECLARE_FUNCTION(execHideAllAttachments); \
+	DECLARE_FUNCTION(execGetAttachmentComponentWithAttachment); \
+	DECLARE_FUNCTION(execGetCompatibleAttachmentComponentsFromClass); \
+	DECLARE_FUNCTION(execGetCompatibleAttachmentComponentsFromActor); \
+	DECLARE_FUNCTION(execGetAttachments); \
+	DECLARE_FUNCTION(execGetAttachmentComponents); \
+	DECLARE_FUNCTION(execServer_SetAllAttachmentsCollision); \
+	DECLARE_FUNCTION(execServer_HideAllAttachments); \
+	DECLARE_FUNCTION(execOnRep_AttachmentsStates); \
+	DECLARE_FUNCTION(execOnRep_Attachments); \
+	DECLARE_FUNCTION(execOnRep_AttachmentComponents);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_CALLBACK_WRAPPERS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSKGAttachmentManagerComponent(); \
+	friend struct Z_Construct_UClass_USKGAttachmentManagerComponent_Statics; \
+public: \
+	DECLARE_CLASS(USKGAttachmentManagerComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SKGAttachment"), NO_API) \
+	DECLARE_SERIALIZER(USKGAttachmentManagerComponent) \
+	virtual UObject* _getUObject() const override { return const_cast<USKGAttachmentManagerComponent*>(this); } \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		AttachmentComponents=NETFIELD_REP_START, \
+		Attachments, \
+		bIsHidden, \
+		bHasCollision, \
+		NETFIELD_REP_END=bHasCollision	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGAttachmentManagerComponent(USKGAttachmentManagerComponent&&); \
+	NO_API USKGAttachmentManagerComponent(const USKGAttachmentManagerComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGAttachmentManagerComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGAttachmentManagerComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USKGAttachmentManagerComponent) \
+	NO_API virtual ~USKGAttachmentManagerComponent();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_19_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_CALLBACK_WRAPPERS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGATTACHMENT_API UClass* StaticClass<class USKGAttachmentManagerComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_Components_SKGAttachmentManagerComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

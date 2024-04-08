@@ -1,0 +1,16 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.3.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.1.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.2.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.3.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.1.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.2.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGShooterFramework/Module.SKGShooterFramework.3.cpp.o"
+	]
+}

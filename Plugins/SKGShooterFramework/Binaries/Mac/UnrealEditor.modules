@@ -1,0 +1,21 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"SKGAnimGraphNodes": "UnrealEditor-SKGAnimGraphNodes.dylib",
+		"SKGAttachment": "UnrealEditor-SKGAttachment.dylib",
+		"SKGLightLaser": "UnrealEditor-SKGLightLaser.dylib",
+		"SKGMuzzle": "UnrealEditor-SKGMuzzle.dylib",
+		"SKGOptic": "UnrealEditor-SKGOptic.dylib",
+		"SKGOptional": "UnrealEditor-SKGOptional.dylib",
+		"SKGPhysicalMaterialModule": "UnrealEditor-SKGPhysicalMaterialModule.dylib",
+		"SKGProceduralAnim": "UnrealEditor-SKGProceduralAnim.dylib",
+		"SKGProjectile": "UnrealEditor-SKGProjectile.dylib",
+		"SKGRangeFinder": "UnrealEditor-SKGRangeFinder.dylib",
+		"SKGShooterFramework": "UnrealEditor-SKGShooterFramework.dylib",
+		"SKGShooterFrameworkCore": "UnrealEditor-SKGShooterFrameworkCore.dylib",
+		"SKGShooterFrameworkEditor": "UnrealEditor-SKGShooterFrameworkEditor.dylib",
+		"SKGStats": "UnrealEditor-SKGStats.dylib",
+		"SKGStock": "UnrealEditor-SKGStock.dylib"
+	}
+}

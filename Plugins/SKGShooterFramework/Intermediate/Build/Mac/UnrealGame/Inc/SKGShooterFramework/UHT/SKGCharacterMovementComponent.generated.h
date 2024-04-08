@@ -1,0 +1,78 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/SKGCharacterMovementComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef SKGSHOOTERFRAMEWORK_SKGCharacterMovementComponent_generated_h
+#error "SKGCharacterMovementComponent.generated.h already included, missing '#pragma once' in SKGCharacterMovementComponent.h"
+#endif
+#define SKGSHOOTERFRAMEWORK_SKGCharacterMovementComponent_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool Server_SetWalkSpeedMultiplier_Validate(float ); \
+	virtual void Server_SetWalkSpeedMultiplier_Implementation(float WalkSpeedMultiplier); \
+ \
+	DECLARE_FUNCTION(execServer_SetWalkSpeedMultiplier); \
+	DECLARE_FUNCTION(execDecreaseWalkSpeedMultiplier); \
+	DECLARE_FUNCTION(execIncreaseWalkSpeedMultiplier); \
+	DECLARE_FUNCTION(execSetWalkSpeedMultiplier); \
+	DECLARE_FUNCTION(execGetIsSprinting); \
+	DECLARE_FUNCTION(execStopSprinting); \
+	DECLARE_FUNCTION(execStartSprinting);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_CALLBACK_WRAPPERS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSKGCharacterMovementComponent(); \
+	friend struct Z_Construct_UClass_USKGCharacterMovementComponent_Statics; \
+public: \
+	DECLARE_CLASS(USKGCharacterMovementComponent, UCharacterMovementComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SKGShooterFramework"), NO_API) \
+	DECLARE_SERIALIZER(USKGCharacterMovementComponent)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGCharacterMovementComponent(USKGCharacterMovementComponent&&); \
+	NO_API USKGCharacterMovementComponent(const USKGCharacterMovementComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGCharacterMovementComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGCharacterMovementComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USKGCharacterMovementComponent) \
+	NO_API virtual ~USKGCharacterMovementComponent();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_12_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_CALLBACK_WRAPPERS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGSHOOTERFRAMEWORK_API UClass* StaticClass<class USKGCharacterMovementComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFramework_Public_Components_SKGCharacterMovementComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

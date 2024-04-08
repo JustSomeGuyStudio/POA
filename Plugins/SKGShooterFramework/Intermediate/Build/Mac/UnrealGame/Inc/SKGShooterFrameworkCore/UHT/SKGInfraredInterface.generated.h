@@ -1,0 +1,82 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Interfaces/SKGInfraredInterface.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef SKGSHOOTERFRAMEWORKCORE_SKGInfraredInterface_generated_h
+#error "SKGInfraredInterface.generated.h already included, missing '#pragma once' in SKGInfraredInterface.h"
+#endif
+#define SKGSHOOTERFRAMEWORKCORE_SKGInfraredInterface_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USKGInfraredInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGInfraredInterface(USKGInfraredInterface&&); \
+	NO_API USKGInfraredInterface(const USKGInfraredInterface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGInfraredInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGInfraredInterface); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USKGInfraredInterface) \
+	NO_API virtual ~USKGInfraredInterface();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_GENERATED_UINTERFACE_BODY() \
+private: \
+	static void StaticRegisterNativesUSKGInfraredInterface(); \
+	friend struct Z_Construct_UClass_USKGInfraredInterface_Statics; \
+public: \
+	DECLARE_CLASS(USKGInfraredInterface, UInterface, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Interface), CASTCLASS_None, TEXT("/Script/SKGShooterFrameworkCore"), NO_API) \
+	DECLARE_SERIALIZER(USKGInfraredInterface)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_GENERATED_BODY \
+	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_GENERATED_UINTERFACE_BODY() \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_ENHANCED_CONSTRUCTORS \
+private: \
+	PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+protected: \
+	virtual ~ISKGInfraredInterface() {} \
+public: \
+	typedef USKGInfraredInterface UClassType; \
+	typedef ISKGInfraredInterface ThisClass; \
+	virtual UObject* _getUObject() const { return nullptr; }
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_10_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGSHOOTERFRAMEWORKCORE_API UClass* StaticClass<class USKGInfraredInterface>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGShooterFrameworkCore_Public_Interfaces_SKGInfraredInterface_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

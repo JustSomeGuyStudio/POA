@@ -1,0 +1,100 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/SKGOpticSceneCaptureComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FSKGOpticReticle;
+#ifdef SKGOPTIC_SKGOpticSceneCaptureComponent_generated_h
+#error "SKGOpticSceneCaptureComponent.generated.h already included, missing '#pragma once' in SKGOpticSceneCaptureComponent.h"
+#endif
+#define SKGOPTIC_SKGOpticSceneCaptureComponent_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_17_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSKGOpticSceneCaptureComponentRenderTargetSettings_Statics; \
+	SKGOPTIC_API static class UScriptStruct* StaticStruct();
+
+
+template<> SKGOPTIC_API UScriptStruct* StaticStruct<struct FSKGOpticSceneCaptureComponentRenderTargetSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_34_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSKGOpticSceneCaptureComponentMaterialSettings_Statics; \
+	SKGOPTIC_API static class UScriptStruct* StaticStruct();
+
+
+template<> SKGOPTIC_API UScriptStruct* StaticStruct<struct FSKGOpticSceneCaptureComponentMaterialSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_49_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSKGOpticSceneCaptureComponentSettings_Statics; \
+	SKGOPTIC_API static class UScriptStruct* StaticStruct();
+
+
+template<> SKGOPTIC_API UScriptStruct* StaticStruct<struct FSKGOpticSceneCaptureComponentSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execApplyLookAtRotationZero); \
+	DECLARE_FUNCTION(execPointOfImpactRight); \
+	DECLARE_FUNCTION(execPointOfImpactLeft); \
+	DECLARE_FUNCTION(execPointOfImpactDown); \
+	DECLARE_FUNCTION(execPointOfImpactUp); \
+	DECLARE_FUNCTION(execPointOfImpactLeftRightDefault); \
+	DECLARE_FUNCTION(execPointOfImpactUpDownDefault); \
+	DECLARE_FUNCTION(execZoom); \
+	DECLARE_FUNCTION(execStopCapture); \
+	DECLARE_FUNCTION(execStartCapture);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSKGOpticSceneCaptureComponent(); \
+	friend struct Z_Construct_UClass_USKGOpticSceneCaptureComponent_Statics; \
+public: \
+	DECLARE_CLASS(USKGOpticSceneCaptureComponent, USceneCaptureComponent2D, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SKGOptic"), NO_API) \
+	DECLARE_SERIALIZER(USKGOpticSceneCaptureComponent) \
+	virtual UObject* _getUObject() const override { return const_cast<USKGOpticSceneCaptureComponent*>(this); }
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGOpticSceneCaptureComponent(USKGOpticSceneCaptureComponent&&); \
+	NO_API USKGOpticSceneCaptureComponent(const USKGOpticSceneCaptureComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGOpticSceneCaptureComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGOpticSceneCaptureComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USKGOpticSceneCaptureComponent) \
+	NO_API virtual ~USKGOpticSceneCaptureComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_56_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h_59_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGOPTIC_API UClass* StaticClass<class USKGOpticSceneCaptureComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGOptic_Public_Components_SKGOpticSceneCaptureComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

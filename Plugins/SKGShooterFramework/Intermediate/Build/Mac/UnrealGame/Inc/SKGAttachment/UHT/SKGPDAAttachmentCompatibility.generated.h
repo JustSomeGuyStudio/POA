@@ -1,0 +1,73 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DataAssets/SKGPDAAttachmentCompatibility.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef SKGATTACHMENT_SKGPDAAttachmentCompatibility_generated_h
+#error "SKGPDAAttachmentCompatibility.generated.h already included, missing '#pragma once' in SKGPDAAttachmentCompatibility.h"
+#endif
+#define SKGATTACHMENT_SKGPDAAttachmentCompatibility_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_12_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSKGDAAttachment_Statics; \
+	SKGATTACHMENT_API static class UScriptStruct* StaticStruct();
+
+
+template<> SKGATTACHMENT_API UScriptStruct* StaticStruct<struct FSKGDAAttachment>();
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSKGPDAAttachmentCompatibility(); \
+	friend struct Z_Construct_UClass_USKGPDAAttachmentCompatibility_Statics; \
+public: \
+	DECLARE_CLASS(USKGPDAAttachmentCompatibility, UPrimaryDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SKGAttachment"), NO_API) \
+	DECLARE_SERIALIZER(USKGPDAAttachmentCompatibility)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USKGPDAAttachmentCompatibility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USKGPDAAttachmentCompatibility(USKGPDAAttachmentCompatibility&&); \
+	NO_API USKGPDAAttachmentCompatibility(const USKGPDAAttachmentCompatibility&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USKGPDAAttachmentCompatibility); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USKGPDAAttachmentCompatibility); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USKGPDAAttachmentCompatibility) \
+	NO_API virtual ~USKGPDAAttachmentCompatibility();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_17_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h_20_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SKGATTACHMENT_API UClass* StaticClass<class USKGPDAAttachmentCompatibility>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SKGShooterFramework_Source_SKGAttachment_Public_DataAssets_SKGPDAAttachmentCompatibility_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

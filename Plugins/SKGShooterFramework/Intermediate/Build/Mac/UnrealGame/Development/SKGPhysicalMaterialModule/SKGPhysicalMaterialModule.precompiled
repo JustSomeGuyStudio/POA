@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/SKGPhysicalMaterialModule/Module.SKGPhysicalMaterialModule.cpp.o",
+		"../../../arm64/UnrealGame/Development/SKGPhysicalMaterialModule/Module.SKGPhysicalMaterialModule.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGPhysicalMaterialModule/Module.SKGPhysicalMaterialModule.cpp.o",
+		"../../../x64/UnrealGame/Development/SKGPhysicalMaterialModule/Module.SKGPhysicalMaterialModule.cpp.o"
+	]
+}
